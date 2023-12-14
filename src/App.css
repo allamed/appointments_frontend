@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.appointment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.appointment h3 {
+  margin-top: 0;
+}

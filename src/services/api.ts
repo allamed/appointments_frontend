@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_API_URL = 'https://modaresaback-8c953116f1cf.herokuapp.com'; // Replace with your actual API URL
+const BASE_API_URL = 'https://appointmentapp-09f784f3b470.herokuapp.com'; // Replace with your actual API URL
 
 const APPOINTMENTS_API_URL = `${BASE_API_URL}/appointments`;
 const BUYERS_API_URL = `${BASE_API_URL}/buyers`;

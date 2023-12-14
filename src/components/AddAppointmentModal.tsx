@@ -63,7 +63,7 @@ interface AppointmentModalProps {
     }
 
     const [title, setTitle] = useState('');
-    const [type, setType] = useState('');
+    const [type, setType] = useState('Physical');
     const [location, setLocation] = useState<String|undefined>('');
     const [hostId, setHostId] = useState('');
     const [clientId, setClientId] = useState('');

@@ -182,7 +182,7 @@ interface AppointmentModalProps {
                 <MDBModalDialog>
                     <MDBModalContent>
                         <MDBModalHeader>
-                            <MDBModalTitle>New Appointment</MDBModalTitle>
+                            <MDBModalTitle>{edit ? 'Edit appointment' : 'Add new Appointment'}</MDBModalTitle>
                             <MDBBtn className='btn-close' color='none' onClick={toggleOpen}></MDBBtn>
                         </MDBModalHeader>
                         <MDBModalBody>
